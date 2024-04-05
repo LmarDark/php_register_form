@@ -11,7 +11,7 @@ Apenas um projeto com foco em aprendizado feito com PHP.
   - Banco de dados(MySQL, MariaDB...)
 
 ## Como acessar a demo?
-- Segue link da demonstração do projeto: 
+- Segue link da demonstração do projeto: https://lmardark.github.io/php_register_form/
 ---
 
 
