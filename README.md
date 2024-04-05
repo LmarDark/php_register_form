@@ -2,11 +2,10 @@
 ---
 
 ## Tópicos
-* [Primeiros passos](##O que é o php_register_form?)
-[O que foi usado neste repositório?](## Primeiros passos  👣)
-[O que foi usado neste repositório?](## O que foi usado neste repositório? 📋)
-[Exemplificando o código do formulário](## Exemplificando o código do formulário 📑)
-[Como acessar a demo?](## Como acessar a demo? ✔️)
+  * [Introduction](#Primeirospassos)
+  * [Registering users with HTML and PHP](#sign-up)
+    + [HTML](#HTML)
+    + [PHP](#PHP)
 
 ## O que é o php_register_form? 🤔
 
