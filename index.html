@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/src/styles/styles.css">
+    <script src="/src/script/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Welcome! - by LmarDark</title>
+</head>
+<body>
+    <div class="container-body">
+        <div class="border-div">
+
+    <hr>
+
+            <h1 id="title-s">Sign-in</h1>
+            <h1 id="title-l">Login-in</h1>
+
+    <hr>
+
+            <div class="container-sign">
+                <div class="form-sign">
+                    <form action="/src/php/env.php" method="post">
+                        Username<input type="text" placeholder="name example" autocomplete="off" name="user_sg" required>
+                        Password<input type="password" placeholder="1234" autocomplete="off" name="psw_sg" required>
+                        <button type="submit" name="sub_sg">Register</button>
+                    </form>
+                </div>
+            </div>
+            <div class="container-login">
+                <div class="form-login">
+                    <form action="/src/php/env.php" method="post">
+                        Your Username<input type="text" placeholder="name example" autocomplete="off" name="user_lg">
+                        Your Password<input type="password" placeholder="1234" autocomplete="off" name="psw_lg">
+                        <button type="submit" name="sub_lg">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+            <button id="for-login" type="button" onclick="myFunction1()">Já possui cadastro?</button>
+            <button id="for-sign" type="button" onclick="myFunction2()">Ainda não tem conta?</button>
+    </div>
+    
+</body>
+</html>
