@@ -24,7 +24,7 @@
 
 ## Como acessar a demo? ✔️
 ---
-- Segue link da demonstração do projeto: https://lmardark.github.io/php_register_form/
+-  Segue link da demonstração do projeto: https://lmardark.github.io/php_register_form/
 ---
 
 
