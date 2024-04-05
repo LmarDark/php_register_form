@@ -5,7 +5,7 @@
   * [Introduction](#o-que-é-o-php_register_form-)
   * [Registering users with HTML and PHP](#primeiros-passos--)
   * [HTML](#o-que-foi-usado-neste-repositório-)
-    + [PHP](#PHP)
+  * [PHP](#o-que-foi-usado-neste-repositório-)
 
 ## O que é o php_register_form? 🤔
 
