@@ -14,7 +14,7 @@
 
 ## O que foi usado neste repositório? 📋
 
-<p>- Banco de Dados MariaDB(HeidiSQL), PHP, HTML, CSS e Javascript(Ajax);</p>
+**<p>- Banco de Dados MariaDB(HeidiSQL), PHP, HTML, CSS e Javascript(Ajax);</p>**
 
 ## Exemplificando o código do formulário 📑
 
