@@ -3,7 +3,7 @@
 
 ## Tópicos
   * [Introduction](#o-que-é-o-php_register_form-)
-  * [Registering users with HTML and PHP](#sign-up)
+  * [Registering users with HTML and PHP](#primeiros-passos--)
     + [HTML](#HTML)
     + [PHP](#PHP)
 
