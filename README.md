@@ -4,7 +4,7 @@
 ## Tópicos
   * [Introduction](#o-que-é-o-php_register_form-)
   * [Registering users with HTML and PHP](#primeiros-passos--)
-    + [HTML](#HTML)
+  * [HTML](#o-que-foi-usado-neste-repositório-)
     + [PHP](#PHP)
 
 ## O que é o php_register_form? 🤔
