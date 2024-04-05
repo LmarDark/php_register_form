@@ -10,6 +10,8 @@ Apenas um projeto com foco em aprendizado feito com PHP.
    - PHP 8.3.4>=;
   - Banco de dados(MySQL, MariaDB...)
 
+## Como acessar a demo?
+- Segue link da demonstração do projeto: 
 ---
 
 
