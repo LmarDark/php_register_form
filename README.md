@@ -2,16 +2,17 @@
 ---
 
 ## Tópicos
-  * [Introduction](#o-que-é-o-php_register_form-)
-  * [Registering users with HTML and PHP](#primeiros-passos--)
-  * [HTML](#o-que-foi-usado-neste-repositório-)
-  * [PHP](#o-que-foi-usado-neste-repositório-)
+  * [Primeiros passos](#o-que-é-o-php_register_form-)
+  * [O que foi usado neste repositório?](#primeiros-passos-)
+  * [O que foi usado neste repositório?](#o-que-foi-usado-neste-repositório-)
+  * [Exemplificando o código do formulário](#exemplificando-o-código-do-formulário-)
+  * [Como acessar a demo?](#como-acessar-a-demo?-)
 
 ## O que é o php_register_form? 🤔
 
 #### Um formulário de registro e login feito com Banco de Dados MariaDB(HeidiSQL), PHP, HTML, CSS e Javascript(Ajax), com total foco em aprendizado de algumas 
 
-## Primeiros passos  👣
+## Primeiros passos 👣
 
 **<p>- Primeiro você pode estar clonando o repositório(git clone https://github.com/LmarDark/php_register_form);</p>**
 **<p>- Antes de executar verifique se possui os requirementos:</p>**
