@@ -1,7 +1,7 @@
 # php_register_form
 ---
 
-## O que é?
+## O que é o php_register_form?
 Apenas um projeto com foco em aprendizado feito com PHP.
 
 ## Primeiros passos 
