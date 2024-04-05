@@ -18,9 +18,9 @@
 
 ## Exemplificando o código do formulário 📑
 ---
-Nos é apresentado primeiramente a tela de Registro e Login, onde é possível fazer a criação de uma nova conta e caso já possua uma conta, basta clicar no botão 'Já possui cadastro?'.
-Após preencher o formulário, as informações são enviadas para o nosso arquivo PHP (env.php), onde realizamos a conexão com o banco de dados, registramos o usuário e verificamos se as credenciais são válidas.
-O AJAX/Javascript foi utilizado para aprimorar a experiência do usuário, permitindo a estilização e a transição suave dos elementos na tela.
+#### Nos é apresentado primeiramente a tela de Registro e Login, onde é possível fazer a criação de uma nova conta e caso já possua uma conta, basta clicar no botão 'Já possui cadastro?';
+#### Após preencher o formulário, as informações são enviadas para o nosso arquivo PHP (env.php), onde realizamos a conexão com o banco de dados, registramos o usuário e verificamos se as credenciais são válidas;
+#### O AJAX/Javascript foi utilizado para aprimorar a experiência do usuário, permitindo a estilização e a transição suave dos elementos na tela.
 
 ## Como acessar a demo? ✔️
 ---
