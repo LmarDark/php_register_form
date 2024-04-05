@@ -6,7 +6,7 @@
   * [O que foi usado neste repositório?](#primeiros-passos-)
   * [O que foi usado neste repositório?](#o-que-foi-usado-neste-repositório-)
   * [Exemplificando o código do formulário](#exemplificando-o-código-do-formulário-)
-  * [Como acessar a demo?](#como-acessar-a-demo?-)
+  * [Como acessar a demo?](#como-acessar-a-demo-%EF%B8%8F)
 
 ## O que é o php_register_form? 🤔
 
