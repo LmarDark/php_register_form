@@ -2,7 +2,7 @@
 ---
 
 ## Tópicos
-[Primeiros passos](## O que é o php_register_form? 🤔)
+* [Primeiros passos](##O que é o php_register_form?)
 [O que foi usado neste repositório?](## Primeiros passos  👣)
 [O que foi usado neste repositório?](## O que foi usado neste repositório? 📋)
 [Exemplificando o código do formulário](## Exemplificando o código do formulário 📑)
