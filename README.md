@@ -10,7 +10,7 @@
 
 ## O que é o php_register_form? 🤔
 
-#### Um formulário de registro e login feito com Banco de Dados MariaDB(HeidiSQL), PHP, HTML, CSS e Javascript(Ajax), com total foco em aprendizado de algumas 
+#### Um formulário de registro e login feito com Banco de Dados MariaDB(HeidiSQL), PHP, HTML, CSS e Jquery, com total foco em aprendizado de algumas 
 
 ## Primeiros passos 👣
 
