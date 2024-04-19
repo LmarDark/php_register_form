@@ -7,10 +7,15 @@
         $db = "localhostdb";
         $port = "XXXXXXXX";
 
-        if(isset($_POST['user_sg']) && ($_POST['psw_sg']) || ($_POST['user_lg']) && ($_POST['psw_lg']))
+        $conn = mysqli_connect($servername, $user, $password, $db, $port);
+
+        if( ! $conn)
         {
-            $conn = mysqli_connect($servername, $user, $password, $db, $port);
-            
+            $createdbsql = "CREATE DATABASE localhostdb";
+        }
+        
+        if(isset($_POST['user_sg']) && ($_POST['psw_sg']) || ($_POST['user_lg']) && ($_POST['psw_lg']))
+        {   
             @$user_sg = $conn->real_escape_string($_POST['user_sg']);
             @$psw_sg = $conn->real_escape_string($_POST['psw_sg']);
 
