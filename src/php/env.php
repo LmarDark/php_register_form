@@ -1,11 +1,11 @@
 <?php
     if($_POST)
     {
-        $servername = "127.0.0.1";
-        $user = "root";
-        $password = "root";
+        $servername = "XXXXXXXX";
+        $user = "XXXXXXXX";
+        $password = "XXXXXXXX";
         $db = "localhostdb";
-        $port = 3307;
+        $port = "XXXXXXXX";
 
         if(isset($_POST['user_sg']) && ($_POST['psw_sg']) || ($_POST['user_lg']) && ($_POST['psw_lg']))
         {
