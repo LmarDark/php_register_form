@@ -1,21 +1,16 @@
 <?php
     if($_POST)
     {
-        $servername = "XXXXXXXX";
-        $user = "XXXXXXXX";
-        $password = "XXXXXXXX";
-        $db = "localhostdb";
-        $port = "XXXXXXXX";
-
-        $conn = mysqli_connect($servername, $user, $password, $db, $port);
-
-        if( ! $conn)
-        {
-            $createdbsql = "CREATE DATABASE localhostdb";
-        }
+        $servername = "XXXXXXXXX";
+        $user = "XXXXXXXXX";
+        $password = "XXXXXXXXX";
+        $db = "XXXXXXXXX";
+        $port = "XXXXXXXXX";
         
         if(isset($_POST['user_sg']) && ($_POST['psw_sg']) || ($_POST['user_lg']) && ($_POST['psw_lg']))
         {   
+            $conn = mysqli_connect($servername, $user, $password, $db, $port);
+
             @$user_sg = $conn->real_escape_string($_POST['user_sg']);
             @$psw_sg = $conn->real_escape_string($_POST['psw_sg']);
 
@@ -38,7 +33,7 @@
 
                     $sqlsign = sprintf("INSERT INTO userstable(username, password) VALUES('$user_sg', '$hash_psw');");
                     $conn->query($sqlsign);
-                    header("Location: ./index.html");
+                    header("Location: ./home.php");
                     session_destroy(); //
                     exit;
                 }
