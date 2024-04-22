@@ -1,5 +1,4 @@
 # php_register_form 📍
----
 
 ## Tópicos
   * [O que é o php_register_form?](#o-que-é-o-php_register_form-)
