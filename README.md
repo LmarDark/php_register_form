@@ -1,5 +1,3 @@
----
-
 # php_register_form 📍
 
 ## Tópicos
