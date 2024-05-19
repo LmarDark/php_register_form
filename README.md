@@ -28,8 +28,9 @@
 #### - Após preencher o formulário, as informações são enviadas para o nosso arquivo PHP (env.php), onde realizamos a conexão com o banco de dados, registramos o usuário e verificamos se as credenciais são válidas;
 #### - O AJAX/Javascript foi utilizado para aprimorar a experiência do usuário, permitindo a estilização e a transição suave dos elementos na tela.
 
-## Como acessar a demo? ✔️
+## Como acessar o projeto e a demo feita em html? ✔️
 
+<p>- Segue link do projeto em funcionamento: https://portfolioshared.com.br/projects/php_register_form/</p> 
 <p>- Segue link da demonstração do projeto: https://lmardark.github.io/php_register_form/</p>
 
 ---
