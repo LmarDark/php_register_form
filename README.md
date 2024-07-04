@@ -15,7 +15,7 @@
 
 **<p>- Primeiro você pode estar clonando o repositório(git clone https://github.com/LmarDark/php_register_form);</p>**
 **<p>- Antes de executar verifique se possui os requirementos:</p>**
-   - **PHP 8.3.4>=;**
+   - **PHP 8.3.4 >=;**
   - **Banco de dados(MySQL, MariaDB...)**
 
 ## O que foi usado neste repositório? 📋
