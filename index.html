@@ -6,126 +6,213 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <title>Welcome! - by LmarDark</title>
     <style>
-        body{
-            height: 98vh;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        
-        .container-body{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 3%;
-            padding-left: 7%;
-            padding-right: 7%;
-        }
-        
-        hr {
-            border: 0;
-            height: 2px;
-            margin:18px 0;
-            position:relative;
-            background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 90%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(10%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0.65)), color-stop(90%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-            background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-            background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-            background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* IE10+ */
-            background: linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* W3C */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
-        }
-        
-        hr:before {
-            content: "";
-            display: block;
-            border-top: solid 1px #f9f9f9;
-            width: 100%;
-            height: 1px;
-            position: absolute;
-            top: 50%;
-            z-index: 1;
-        }
-        
-        .container-sign{
-            display: flex;
-            justify-content: center;
-        }
-        
-        .container-login{
-            display: flex;
-            justify-content: center;
-        }
-        
-        .form-sign{
-            
-        }
-        
-        .form-login{
-            display: none;
-        }
-        
-        form{
-            display: flex;
-            flex-direction: column;
-        }
-        
-        input{
-            margin-bottom: 5%;
-        }
-        
-        #for-sign{
-            display: none;
-        }
-        
-        #for-login{
-        
-        }
-        
-        #title-l{
-            display: none;
-            text-align: center;
-        }
-        
-        #title-s{
-            text-align: center;
-            
-        }
+        @import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  height: 98vh;
+  font-family: "Aleo", serif;
+  background: rgb(127, 176, 19);
+  background: linear-gradient(
+    133deg,
+    rgba(127, 176, 19, 1) 0%,
+    rgba(16, 102, 79, 1) 27%,
+    rgba(3, 47, 53, 1) 64%
+  );
+  color: #032f35;
+}
+
+* {
+  font-family: "Aleo", serif;
+}
+
+.container-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  margin: 18px 0;
+  position: relative;
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.65) 50%,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, rgba(0, 0, 0, 0)),
+    color-stop(10%, rgba(0, 0, 0, 0)),
+    color-stop(50%, rgba(0, 0, 0, 0.65)),
+    color-stop(90%, rgba(0, 0, 0, 0)),
+    color-stop(100%, rgba(0, 0, 0, 0))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.65) 50%,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.65) 50%,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.65) 50%,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.65) 50%,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+hr:before {
+  content: "";
+  display: block;
+  border-top: solid 1px #f9f9f9;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.form-sign {
+}
+
+.form-login {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 5%;
+}
+
+#for-sign {
+  display: none;
+}
+
+#for-login {
+}
+
+#title-l {
+  display: none;
+  text-align: center;
+  margin: 0px 0px 15px;
+  font-size: 30px;
+}
+
+#title-s {
+  text-align: center;
+  margin: 0px 0px 15px;
+  font-size: 30px;
+}
+
+button[type="submit"] {
+  color: #e5eadc;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(127, 176, 19);
+  background: linear-gradient(
+    133deg,
+    rgba(127, 176, 19, 1) 0%,
+    rgba(16, 102, 79, 1) 27%,
+    rgba(3, 47, 53, 1) 64%
+  );
+}
+
+#for-sign,
+#for-login {
+  background: transparent;
+  border: none;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  color: white;
+}
+
+input {
+  border: 2px solid #10664f;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+}
+
+.border-div {
+  padding: 20px;
+  background: #e6eadc;
+  border-radius: 3px;
+  filter: drop-shadow(1px 1px 1px #6a9e2d);
+  width: 280px;
+}
+
+@media (max-width: 350px) {
+  .border-div {
+    width: 280px;
+  }
+}
+
     </style>
 </head>
 <body>
-    <div class="container-body">
-        <div class="border-div">
-
-    <hr>
-
-            <h1 id="title-s">Sign-in</h1>
-            <h1 id="title-l">Login-in</h1>
-
-    <hr>
-
-            <div class="container-sign">
-                <div class="form-sign">
-                    <form action="" method="post">
-                        Username<input type="text" placeholder="name example" autocomplete="off" maxlenght="20" name="user_sg" required>
-                        Password<input type="password" placeholder="1234" autocomplete="off" maxlenght="16" name="psw_sg" required>
-                        <button type="submit" name="sub_sg">Register</button>
-                    </form>
-                </div>
-            </div>
-            <div class="container-login">
-                <div class="form-login">
-                    <form action="" method="post">
-                        Your Username<input type="text" placeholder="name example" autocomplete="off" maxlenght="20" name="user_lg">
-                        Your Password<input type="password" placeholder="1234" autocomplete="off" maxlenght="16" name="psw_lg">
-                        <button type="submit" name="sub_lg">Login</button>
-                    </form>
-                </div>
-            </div>
+  <div class="container-body">
+    <div class="border-div">
+      <h1 id="title-s">Sign-in</h1>
+      <h1 id="title-l">Login-in</h1>
+      <div class="container-sign">
+        <div class="form-sign">
+          <form action="" method="post">
+            <label>username</label><input type="text" placeholder="name example" autocomplete="off" maxlenght="20" name="user_sg" required>
+            <label>password</label><input type="password" placeholder="1234" autocomplete="off" maxlenght="16" name="psw_sg" required>
+            <button type="submit" name="sub_sg">Register</button>
+          </form>
         </div>
-            <button id="for-login" type="button" onclick="myFunction1()">Já possui cadastro?</button>
-            <button id="for-sign" type="button" onclick="myFunction2()">Ainda não tem conta?</button>
+      </div>
+      <div class="container-login">
+        <div class="form-login">
+          <form action="" method="post">
+            <label>Your username</label><input type="text" placeholder="name example" autocomplete="off" maxlenght="20" name="user_lg">
+            <label>Your username</label><input type="password" placeholder="1234" autocomplete="off" maxlenght="16" name="psw_lg">
+            <button type="submit" name="sub_lg">Login</button>
+          </form>
+        </div>
+      </div>
+      <button id="for-login" type="button" onclick="myFunction1()">Já possui cadastro?</button>
+    <button id="for-sign" type="button" onclick="myFunction2()">Ainda não tem conta?</button>
     </div>
-    
+  </div>
 </body>
 <script>
     function myFunction1(){
